@@ -1,16 +1,21 @@
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 <header class="nav_container">   
  <img class="logo" src="../assets/Dark Mono.svg" alt="CinemaSpace Logo">
 
 <nav>
-    <a href="index.html" class="NavBar">Home</a>
-    <a href="Mercury.html" class="NavBar">Mercury</a>
-    <a href="Venus.html" class="NavBar">Venus</a>
-    <a href="Mars.html" class="NavBar">Mars</a> 
-    <a href="jupiter.html" class="NavBar">Jupiter</a> 
-    <a href="Saturn.html" class="NavBar">Saturn</a>  
-    <a href="Uranus.html" class="NavBar">Uranus</a> 
-    <a href="Nepture.html" class="NavBar">Nepture</a> 
-    <a href="Pluto.html" class="NavBar">Pluto</a> 
-    <a href="beyond.html" class="NavBar">Beyond</a>
+    <a href="index" class="NavBar">Home</a>
+    <a href="Mercury" class="NavBar">Mercury</a>
+    <a href="Venusl" class="NavBar">Venus</a>
+    <a href="Mars" class="NavBar">Mars</a> 
+    <a href="jupiter" class="NavBar">Jupiter</a> 
+    <a href="Saturn" class="NavBar">Saturn</a>  
+    <a href="Uranus" class="NavBar">Uranus</a> 
+    <a href="Nepture" class="NavBar">Nepture</a> 
+    <a href="Pluto" class="NavBar">Pluto</a> 
+    <a href="beyond" class="NavBar">Beyond</a>
 </nav>
 </header>
+
+<model-viewer alt=" " src={{modelPath}} camera-controls auto-rotate touch-action="pan-y"></model-viewer>
+<!-- model viewer article: https://brixagency.com/blog/how-to-embed-3d-models-in-webflow -->
+<h1>{{pageTitle}}</h1>

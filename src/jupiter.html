@@ -1,23 +1,8 @@
  <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Jupiter</title>
-    <meta name="description" content="search platform for movies that how setting taking place on Jupiter">
-    <meta name="author" content="Ryan Stucker">
-    <link rel="icon" type="image/png" href="favicon.ico">
-    <link rel="stylesheet" href="styles.css">
-     <div>
-        <meta property="og:title" content=Jupiter: Movies and Shows>
-        <meta property="og:site_name" content=CinemaSpace>
-        <meta property="og:url" content=https://cinemaspace.w3spaces.com>
-        <meta property="og:description" content=Cinema search platform with the purpose of help you searchJupiter.>
-        <meta property="og:type" content=website>
-        <meta property="og:image" content="https://cinemaspace.w3spaces.com/Placeholder.png">
-        </div>
-</head>
+    {% include 'head', title:'Jupiter' %}
 <body>
-    {% include 'header.liquid' %}
+    {% include 'header.liquid', modelPath:'../assets/jup.glb', pageTitle:'Jupiter' %}
     <Div Class="Sub_Header_Container">
         <h1>Jupiter</h1>
     </Div>
