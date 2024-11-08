@@ -1,5 +1,5 @@
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
-<header class="nav_container">   
+<header class="Nav_Container">   
  <img class="logo" src="../assets/Dark Mono.svg" alt="CinemaSpace Logo">
 
 <nav>
@@ -15,7 +15,8 @@
     <a href="beyond" class="NavBar">Beyond</a>
 </nav>
 </header>
-
-<model-viewer alt=" " src={{modelPath}} camera-controls auto-rotate touch-action="pan-y"></model-viewer>
-<!-- model viewer article: https://brixagency.com/blog/how-to-embed-3d-models-in-webflow -->
-<h1>{{pageTitle}}</h1>
+<Div Class="Sub_Header_Container"></Div>
+    <h1>{{pageTitle}}</h1>
+    <model-viewer alt=" " src={{modelPath}} camera-controls auto-rotate touch-action="pan-y"></model-viewer>
+    <!-- model viewer article: https://brixagency.com/blog/how-to-embed-3d-models-in-webflow -->
+</Div>
