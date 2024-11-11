@@ -17,15 +17,35 @@ H1, h2{
 }
 
 .logo {
-    width: 100px;
+    Background-color: #00000000;
+
+    width: 80px;
 }
 
 .Nav_Container {
     background-color: #010010;
+    display: grid;
+    grid-template-columns: repeat(2, 200px), auto;
+    grid-template-rows: 80px;
+}
 
+Nav {
+    Background-color: #00000000;
+    grid-row: 1;
+    grid-column: 3;
+        grid-template-columns: repeat(2, 200px), auto;
+        grid-template-rows: 80px;
+}
+
+.NavLogo {
+    Background-color: #00000000;
+    grid-row: 1;
+    grid-column: 1;
+    
 }
 
 .Footer_Container {
     background-color: #010010;
+    display: grid;
 
 }
