@@ -20,28 +20,39 @@ H1, h2{
 
 /* Everything Below this is for the Header */
 
-.Nav_Container {
+header {
     background-color: #00000000;
-    display: grid;
-    grid-template-columns: 120px minmax(153px,auto) minmax(120px, 849px);
-    grid-template-rows: 60px;
 }
 
-Nav {
-    Background-color: #00000000;
-    grid-row: 1;
-    grid-column: 3;
+nav {
+    background-color: #00000000;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.NavBar {
+Nav a {
     color: #eeeeee;
     text-decoration: none;
     background-color: #010010;
-    width: 110px;
+    border-color: #eeeeee;
+    border-style: solid;
+    border-width: 0px 0px 1px 1px;
     height: 60px;
+    width: 110px;
     padding: 20px;
     border-radius: 0px 0px 0px 10px;
-   
+    display: flex;
+    align-items: center;
+}
+
+Nav a:hover {
+    background-color: #06006050;
+}
+
+Nav a:first-child {
+    margin-right: auto;
 }
 
 .logo {
@@ -53,8 +64,40 @@ Nav {
 .NavLogo {
     background-color: #010010;
     border-radius: 0px 0px 10px 0px;
-    grid-row: 1;
-    grid-column: 1;
+    border-width: 0px 1px 1px 0px;
+}
+
+.menu {
+    height: 40px;
+}
+
+.sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #010010;
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+}
+
+.sidebar a {
+    height: 60px;
+    width: 200px;
+
+}
+
+@media(max-width:1300px){
+    .hideOnMobile{
+        display: none;
+    }
+}
+
+@media(min-width:1300px){
+    .hideOnWeb{
+        display: none;
+    }
 }
 
 /* sub head */
