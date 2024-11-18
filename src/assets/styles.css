@@ -18,6 +18,13 @@ H1, h2{
 
 }
 
+main {
+    margin: 0px 0px 0px 10%;
+    display: flex
+    flex-direction: column;
+    width: 450px;
+}
+
 /* Everything Below this is for the Header */
 
 header {
@@ -101,8 +108,16 @@ Nav a:first-child {
 }
 
 /* sub head */
+/*Ask Shuana, can I do the different page HTML title thing for includes in CSS*/
 
-.SubHeadImage {
+.Sub_Header_Container {
+    width: auto;
+    height: 400px;
+}
+
+.Sub_Header_Container .Home {
+    width: 100%;
+    background-image: url(felix_mittermeier-June_13th,2020-Home.png);
 
 }
 
