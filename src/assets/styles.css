@@ -2,12 +2,13 @@
 
 * {
 margin: 0px;
-background-color: #121212;
+box-sizing: border-box;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
     color: #eeeeee;
+    background-color: #121212;
 }
 
 
@@ -16,33 +17,46 @@ H1, h2{
 
 }
 
-.logo {
-    Background-color: #00000000;
-
-    width: 80px;
-}
+/* Everything Below this is for the Header */
 
 .Nav_Container {
-    background-color: #010010;
+    background-color: #00000000;
     display: grid;
-    grid-template-columns: repeat(2, 200px), auto;
-    grid-template-rows: 80px;
+    grid-template-columns: 120px minmax(153px,auto) minmax(120px, 849px);
+    grid-template-rows: 60px;
 }
 
 Nav {
     Background-color: #00000000;
     grid-row: 1;
     grid-column: 3;
-        grid-template-columns: repeat(2, 200px), auto;
-        grid-template-rows: 80px;
+}
+
+.NavBar {
+    color: #eeeeee;
+    text-decoration: none;
+    background-color: #010010;
+    width: 110px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 0px 0px 0px 10px;
+   
+}
+
+.logo {
+    Background-color: #00000000;
+    width: 60px;
+    justify-content: center;
 }
 
 .NavLogo {
-    Background-color: #00000000;
+    background-color: #010010;
+    border-radius: 0px 0px 10px 0px;
     grid-row: 1;
     grid-column: 1;
-    
 }
+
+/* Everything Below this is for the Footer */
 
 .Footer_Container {
     background-color: #010010;
