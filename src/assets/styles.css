@@ -9,6 +9,7 @@ body {
     font-family: "Open Sans", sans-serif;
     color: #eeeeee;
     background-color: #121212;
+    overflow-x: hidden;
 }
 
 
@@ -54,6 +55,12 @@ Nav {
     border-radius: 0px 0px 10px 0px;
     grid-row: 1;
     grid-column: 1;
+}
+
+/* sub head */
+
+.SubHeadImage {
+
 }
 
 /* Everything Below this is for the Footer */
