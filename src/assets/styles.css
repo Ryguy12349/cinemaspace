@@ -15,7 +15,6 @@ body {
 
 H1, h2{
     font-family: "Kanit", serif;
-
 }
 
 main {
@@ -32,6 +31,7 @@ header {
 }
 
 nav {
+    position: fixed;
     background-color: #00000000;
     width: 100%;
     display: flex;
@@ -110,15 +110,25 @@ Nav a:first-child {
 /* sub head */
 /*Ask Shuana, can I do the different page HTML title thing for includes in CSS*/
 
-.Sub_Header_Container {
-    width: auto;
-    height: 400px;
+h1{
+    /* margin: 70px 0px 0px 5%; */
+    font-size: 250px;
 }
 
-.Sub_Header_Container .Home {
+.Sub_Header_Container {
+    width: auto;
+    height: 800px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.Sub_Header_Container {
+    z-index: -1;
     width: 100%;
     background-image: url(felix_mittermeier-June_13th,2020-Home.png);
-
+    background-position: left top;
+    background-repeat:no-repeat;
 }
 
 /* Everything Below this is for the Footer */
