@@ -34,7 +34,7 @@ main {
 
 @media(max-width:500px){
     main {
-        width: 350px;
+        width: 325px;
     }
 }
 
@@ -136,12 +136,19 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
 }
 
 .Sub_Header_Container {
+    margin: 0px 0px 45px 0px;
     width: auto;
     height: 800px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: end;
+}
+
+@media(max-width:500px){
+    .Sub_Header_Container{
+        height: 500px;
+    }
 }
 
 .Sub_Header_Container.index{
@@ -184,7 +191,43 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
 /* Everything Below this is for the Footer */
 
 .Footer_Container {
+    position: relative;
     background-color: #010010;
+    height: 450px;
+    width: auto;
+    padding: 20px;
     display: grid;
+    grid-template-rows: 90px 90px 90px 90px 90px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 
+.Return_To_Top {
+    position: absolute;
+    top: -60px;
+    right: 5%;
+    text-decoration: none;
+    color: #eeeeee;
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 5px;
+    background-color: #010010;
+}
+
+.Return_To_Top:hover {
+    background-color: #06006075;
+}
+
+.Copyright{
+    justify-self: center;
+    align-self: flex-end;
+    grid-row: 5;
+    grid-column: 2 / 5;
+    padding: 20px;
+}
+
+
+
+
+.dumbyText {
+    margin-top: 1500px;
 }
