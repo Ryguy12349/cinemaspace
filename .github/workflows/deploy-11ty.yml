@@ -23,6 +23,7 @@ concurrency:
 env:
   NODE_ENV: build
   BASE_URL: ${{ github.event.repository.name }}
+  APIKEY:  ${{ secrets.API_KEY }}
 
 jobs:
   # Single deploy job since we're just deploying
