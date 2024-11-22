@@ -154,7 +154,7 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
 .Sub_Header_Container.index{
     z-index: -1;
     width: 100%;
-    background-image: url(felix_mittermeier-June_13th,2020-Home.png);
+    background-image: url(felix_mittermeier-June_13th\,2020-Home.webp);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,7 +163,7 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
 .Sub_Header_Container.beyond{
     z-index: -1;
     width: 100%;
-    background-image: url(felix_mittermeier-June_13th\,2020-Beyond.png);
+    background-image: url(felix_mittermeier-June_13th\,2020-Beyond.webp);
     background-position: right center;
     background-repeat:no-repeat;
     background-size: cover;
@@ -172,7 +172,7 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
 .Sub_Header_Container.mars{
     z-index: -1;
     width: 100%;
-    background-image: url(felix_mittermeier-Aug_23\,2017-Mars.jpg);
+    background-image: url(felix_mittermeier-Aug_23\,2017-Mars.webp);
     background-position: right center;
     background-repeat:no-repeat;
     background-size: cover;
@@ -181,7 +181,7 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
 .Sub_Header_Container.jupiter{
     z-index: -1;
     width: 100%;
-    background-image: url(felix_mittermeier-June_13th\,2020-jupiter.jpg);
+    background-image: url(felix_mittermeier-June_13th\,2020-jupiter.webp);
     background-position: right center;
     background-repeat:no-repeat;
     background-size: cover;
