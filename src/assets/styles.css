@@ -18,10 +18,12 @@ H1, h2{
 }
 
 main h2 {
+    font-size: clamp(24px, 1vw, 32px);
     margin: 0px 0px 10px 0px ;
 }
 
 main p {
+    font-size: clamp(16px, 1vw, 24px);
     margin: 0px 0px 10px 0px;
 }
 
@@ -29,10 +31,10 @@ main {
     margin: 0px 0px 100px 10%;
     display: flex
     flex-direction: column;
-    width: 450px;
+    width: 40%;
 }
 
-@media(max-width:500px){
+@media(max-width:880px){
     main {
         width: 325px;
     }
@@ -229,6 +231,7 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
 }
 
 .Copyright{
+
     justify-self: center;
     align-self: flex-end;
     grid-row: 5;
