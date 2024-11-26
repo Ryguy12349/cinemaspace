@@ -124,7 +124,6 @@ Nav a:first-child {
 }
 
 /* sub head */
-/*Ask Shuana, can I do the different page HTML title thing for includes in CSS*/
 .container {
     position: relative;
     width: 100vw;
@@ -142,7 +141,7 @@ Nav a:first-child {
 }
 .back {
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     height: 800px;
     width: 100vw;
     top: 0;
