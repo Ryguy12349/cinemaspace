@@ -1,33 +1,41 @@
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
-<header>   
-<!---->
-<nav>
-    <a href="../index" class="NavLogo"><img class="logo" src="../assets/White Mono.svg" alt="CinemaSpace Logo"></a>
-    <a href="../Mercury" class="hideOnMobile">Mercury</a>
-    <a href="../Venusl" class="hideOnMobile">Venus</a>
-    <a href="../Mars" class="hideOnMobile">Mars</a> 
-    <a href="../jupiter" class="hideOnMobile">Jupiter</a> 
-    <a href="../Saturn" class="hideOnMobile">Saturn</a>  
-    <a href="../Uranus" class="hideOnMobile">Uranus</a> 
-    <a href="../Nepture" class="hideOnMobile">Nepture</a> 
-    <a href="../Pluto" class="hideOnMobile">Pluto</a> 
-    <a href="../beyond" class="hideOnMobile">Beyond</a>
-    <a href="#" onclick="showSidebar()" class="hideOnWeb"><img class="Menu" src="../assets/menu.svg" alt="Menu"></a>
-        <div class="sidebar">
-            <a href="#" onclick="hideSidebar()" class="Close"><img src="../assets/close.svg" alt="Close Menu"></a>
-            <a href="../Mercury" >Mercury</a>
-            <a href="../Venusl" >Venus</a>
-            <a href="../Mars" >Mars</a> 
-            <a href="../jupiter" >Jupiter</a> 
-            <a href="../Saturn" >Saturn</a>  
-            <a href="../Uranus" >Uranus</a> 
-            <a href="../Nepture" >Nepture</a> 
-            <a href="../Pluto" >Pluto</a> 
-            <a href="../beyond" >Beyond</a></div>
-</nav>
-</header>
-<Div Class="Sub_Header_Container {{subHeadImg}}">
-    <h1>{{pageTitle}}</h1>
-    <model-viewer class="{{subHeadImg}}" alt=" " src={{modelPath}} camera-controls auto-rotate interaction-prompt="none"></model-viewer>
-    <!-- model viewer article: https://brixagency.com/blog/how-to-embed-3d-models-in-webflow -->
-</Div>
+<div class="container">
+    <div class="back">
+        <div class="cosmos">
+            <div class="star"></div>
+        </div>
+    </div>
+    <div class="front">
+        <header>   
+            <nav>
+                <a href="../index" class="NavLogo"><img class="logo" src="../assets/White Mono.svg" alt="CinemaSpace Logo"></a>
+                <a href="../Mercury" class="hideOnMobile">Mercury</a>
+                <a href="../Venusl" class="hideOnMobile">Venus</a>
+                <a href="../Mars" class="hideOnMobile">Mars</a> 
+                <a href="../jupiter" class="hideOnMobile">Jupiter</a> 
+                <a href="../Saturn" class="hideOnMobile">Saturn</a>  
+                <a href="../Uranus" class="hideOnMobile">Uranus</a> 
+                <a href="../Nepture" class="hideOnMobile">Nepture</a> 
+                <a href="../Pluto" class="hideOnMobile">Pluto</a> 
+                <a href="../beyond" class="hideOnMobile">Beyond</a>
+                <a href="#" onclick="showSidebar()" class="hideOnWeb"><img class="Menu" src="../assets/menu.svg" alt="Menu"></a>
+                    <div class="sidebar">
+                        <a href="#" onclick="hideSidebar()" class="Close"><img src="../assets/close.svg" alt="Close Menu"></a>
+                        <a href="../Mercury" >Mercury</a>
+                        <a href="../Venusl" >Venus</a>
+                        <a href="../Mars" >Mars</a> 
+                        <a href="../jupiter" >Jupiter</a> 
+                        <a href="../Saturn" >Saturn</a>  
+                        <a href="../Uranus" >Uranus</a> 
+                        <a href="../Nepture" >Nepture</a> 
+                        <a href="../Pluto" >Pluto</a> 
+                        <a href="../beyond" >Beyond</a></div>
+            </nav>
+        </header>
+        <div Class="Sub_Header_Container {{subHeadImg}}">
+            <h1>{{pageTitle}}</h1>
+            <model-viewer class="{{subHeadImg}}" alt=" " src={{modelPath}} auto-rotate interaction-prompt="none"></model-viewer>
+            <!-- model viewer article: https://brixagency.com/blog/how-to-embed-3d-models-in-webflow -->
+        </div>
+    </div>
+</div>
