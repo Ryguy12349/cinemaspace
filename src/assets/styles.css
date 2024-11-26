@@ -131,12 +131,15 @@ h1{
     left: 5%;
 }
 
-model-viewer {
-    transform: scale(4);
+model-viewer.index {
+    transform: scale(14);
+    top: 500px;
 }
 
 model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
-    align-self: center;
+    align-self: center;   
+    transform: scale(4);
+
 }
 
 .Sub_Header_Container {
@@ -153,6 +156,9 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
 @media(max-width:500px){
     .Sub_Header_Container{
         height: 500px;
+    }
+    model-viewer.index{
+        top: 800px;
     }
 }
 
