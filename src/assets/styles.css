@@ -131,6 +131,10 @@ h1{
     left: 5%;
 }
 
+model-viewer {
+    transform: scale(4);
+}
+
 model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
     align-self: center;
 }
@@ -143,6 +147,7 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
     display: flex;
     justify-content: center;
     align-items: end;
+    overflow: hidden;
 }
 
 @media(max-width:500px){
