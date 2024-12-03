@@ -58,8 +58,8 @@ nav {
 Nav a {
     color: #eeeeee;
     text-decoration: none;
-    background-color: #010010;
-    border-color: #eeeeee;
+    background-color: #06006050;
+    border-color: #eeeeee75;
     border-style: solid;
     border-width: 0px 0px 1px 1px;
     height: 60px;
@@ -70,12 +70,12 @@ Nav a {
     align-items: center;
 }
 
-Nav a:hover {
-    background-color: #06006050;
-}
-
 Nav a:first-child {
     margin-right: auto;
+}
+
+Nav a:hover {
+    background-color: #0f00f050;
 }
 
 .logo {
@@ -234,6 +234,12 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
     background-position: right center;
     background-repeat:no-repeat;
     background-size: cover; */
+}
+
+/* Everything below this is for the movie review display*/
+
+.movie-wrapper {
+    
 }
 
 

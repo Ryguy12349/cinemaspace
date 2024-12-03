@@ -33,6 +33,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: secret key
+          with: # Set the secret as an input
+            super_secret: ${{ secrets.APIKEY }}
+          env: # Or as an environment variable
+            super_secret: ${{ secrets.APIKEY }}
       - name: Checkout repo
         uses: actions/checkout@v3
       - name: Setup Pages
