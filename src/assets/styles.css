@@ -237,10 +237,13 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
 
 /* Everything below this is for the movie review display*/
 
-.movie-wrapper {
+#output {
     width: 90%;
-    background-color: #dddcdd;
     margin: 0px 0px 100px 10%;
+}
+
+.movie-wrapper {
+    background-color: #dddcdd;
     display: grid;
     gap: 5% 1%;
     grid-template-columns: auto 1fr 1fr ;
