@@ -14,10 +14,10 @@
     <h2>Mars in Cinema.</h2>
     <p>In cinema, Mars is often depicted as both a mysterious and hostile environment, reflecting humanity's fascination and fear of the unknown. Films portray it as a barren, alien landscape where survival is a monumental challenge, but also as a site of intrigue and potential for groundbreaking discoveries. From classic science fiction to modern blockbusters, Mars serves as a backdrop for stories about human resilience, adventure, and the quest for extraterrestrial life.</p>
     <img src="https://cinemaspace.w3spaces.com/Placeholder.png" alt="Mars still shot?">
-    <div id="output">
-             <!-- API output will go here -->
-            {% include 'movie_list.liquid' %}
-        </div>
 </main>
+<div id="output">
+            <!-- API output will go here -->
+        {% include 'movie_list.liquid', planet:'Martian' %}
+    </div>
     {% include 'footer.liquid' %}
 </body>

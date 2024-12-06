@@ -85,7 +85,6 @@ Nav a:hover {
 }
 
 .NavLogo {
-    background-color: #010010;
     border-radius: 0px 0px 10px 0px;
     border-width: 0px 1px 1px 0px;
 }
@@ -239,7 +238,40 @@ model-viewer.jupiter, model-viewer.mars, model-viewer.beyond {
 /* Everything below this is for the movie review display*/
 
 .movie-wrapper {
-    
+    width: 90%;
+    background-color: #dddcdd;
+    margin: 0px 0px 100px 10%;
+    display: grid;
+    gap: 5% 1%;
+    grid-template-columns: auto 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+}
+
+.movie-poster {
+    width: 150px;
+    height: 150px;
+    grid-column: 1;
+    grid-row: 1 / 3;
+    object-fit: cover;
+
+}
+
+.movie-title {
+    color: #010010;
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: start;
+    align-self: center;
+    padding: 0px 0% 0px 1rem;
+}
+
+.movie-description {
+    color: #010010;
+    grid-column: span 2;
+    grid-row: 2;
+    justify-self: start;
+    align-self: center;
+    padding: 0px 0px 0px 1rem;
 }
 
 
